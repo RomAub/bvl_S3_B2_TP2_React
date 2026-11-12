@@ -1,0 +1,8 @@
+{
+  "tickets": [
+    { "id": 1, "titre": "Imprimante en panne", "auteur": "M. Durand", "priorite": "Haute", "statut": "Ouvert", "description": "L'imprimante du 2e étage n'imprime plus depuis ce matin." },
+    { "id": 2, "titre": "Accès VPN refusé", "auteur": "Mme Martin", "priorite": "Moyenne", "statut": "En cours", "description": "Impossible de se connecter au VPN depuis le télétravail." },
+    { "id": 3, "titre": "Écran qui clignote", "auteur": "M. Petit", "priorite": "Basse", "statut": "Résolu", "description": "L'écran du poste 14 clignote par intermittence." },
+    { "id": 4, "titre": "Mot de passe oublié", "auteur": "Mme Leroy", "priorite": "Haute", "statut": "Ouvert", "description": "Compte bloqué après plusieurs tentatives de connexion." }
+  ]
+}

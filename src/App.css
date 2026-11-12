@@ -1,0 +1,296 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav a.active {
+  background-color: white;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+.contenu {
+  margin-top: 20px;
+}
+
+.notification {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+button.danger {
+  background-color: #d32f2f;
+}
+
+button.danger:hover {
+  background-color: #b71c1c;
+}
+
+.bouton {
+  display: inline-block;
+  background-color: #1976d2;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.bouton:hover {
+  background-color: #1565c0;
+}
+
+.accueil h2 {
+  margin-top: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.stat {
+  background-color: white;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stat-nombre {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.barre-titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filtres {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+
+.filtres input {
+  flex: 1;
+  min-width: 180px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.compteur {
+  font-size: 14px;
+  color: #555;
+}
+
+.liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.ticket {
+  background-color: white;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-haut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ticket h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.ticket h3 a:hover {
+  text-decoration: underline;
+}
+
+.auteur {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.ticket-bas {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.priorite-haute,
+.statut-ouvert {
+  background-color: #d32f2f;
+}
+
+.priorite-moyenne,
+.statut-encours {
+  background-color: #ed6c02;
+}
+
+.priorite-basse,
+.statut-resolu {
+  background-color: #2e7d32;
+}
+
+.confirmation {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 480px;
+}
+
+.formulaire label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.formulaire button {
+  margin-top: 14px;
+  align-self: flex-start;
+}
+
+.erreur {
+  color: #d32f2f;
+  font-size: 13px;
+}
+
+.detail {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.detail h2 {
+  margin-top: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.notfound {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.notfound h2 {
+  font-size: 60px;
+  margin: 0;
+  color: #1976d2;
+}
+
+.info,
+.vide {
+  color: #555;
+  font-style: italic;
+}
